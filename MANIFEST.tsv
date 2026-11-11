@@ -1,0 +1,13 @@
+path	type	status	description
+README.md	documentation	deposit	Package overview, inclusion decisions, quality-control notes, and release checklist
+HOBDAY_GAP_JOINING_UPDATE.md	documentation	deposit	Before-and-after record of the conventional MHW gap-joining update
+data/01_local_environmental_data_2021_2024_EN.xlsx	data	deposit	Clean English monthly local environmental data and audit trail
+data/02_zooplankton_data_2021_2024_EN.xlsx	data	deposit	Analyzed counts, corrected densities, sampling metadata, validation, and taxon dictionary
+data/03_thermal_exposure_Copernicus_NOAA_1982_2024_EN.xlsx	data	deposit	Copernicus and NOAA thermal-exposure data, marine heatwave events, methods, and sources
+results/04_corrected_reanalysis_results_2021_2024_EN.xlsx	results	deposit	Corrected model outputs, diagnostics, sensitivity analysis, and ordination scores
+code/integrated_analysis.py	code	deposit	Validated Python implementation of the corrected analytical workflow
+code/rebuild_mhw_conventional.py	code	deposit	Rebuilds MHW events using the conventional Hobday two-day gap-joining rule
+code/validate_results.py	code	deposit	Automated numerical validation against the corrected result workbook
+code/requirements.txt	configuration	deposit	Tested Python dependency versions
+code/README.md	documentation	deposit	Execution, statistical implementation, and validation instructions
+validation_report.json	validation	deposit	Automated numerical comparison confirming reproduction of the archived corrected results

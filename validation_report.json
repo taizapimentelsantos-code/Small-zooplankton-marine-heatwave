@@ -1,0 +1,127 @@
+{
+  "reference": "04_corrected_reanalysis_results_2021_2024_EN.xlsx",
+  "status": "passed",
+  "checks": {
+    "Community_AR1": {
+      "reference_rows": 60,
+      "reproduced_rows": 60,
+      "matched_rows": 60,
+      "tolerance": 1e-05,
+      "maximum_absolute_differences": {
+        "rho_ar1": 0.0,
+        "r2_marginal": 0.0,
+        "beta_standardized": 0.0,
+        "se": 0.0,
+        "t": 4.440892098500626e-16,
+        "p": 0.0,
+        "p_cyclic": 0.0,
+        "p_bh_within_scope": 0.0
+      },
+      "status": "passed"
+    },
+    "Partial_RDA": {
+      "reference_rows": 12,
+      "reproduced_rows": 12,
+      "matched_rows": 12,
+      "tolerance": 1e-08,
+      "maximum_absolute_differences": {
+        "partial_r2": 0.0,
+        "pseudo_f": 4.440892098500626e-16,
+        "p_cyclic": 0.0,
+        "p_bh_within_scope": 0.0
+      },
+      "status": "passed"
+    },
+    "Taxon_AR1": {
+      "reference_rows": 46,
+      "reproduced_rows": 46,
+      "matched_rows": 46,
+      "tolerance": 1e-05,
+      "maximum_absolute_differences": {
+        "rho_ar1": 0.0,
+        "beta_standardized": 0.0,
+        "se": 0.0,
+        "p": 0.0,
+        "ci95_low": 0.0,
+        "ci95_high": 0.0,
+        "p_bh": 0.0
+      },
+      "status": "passed"
+    },
+    "PCoA_Scores": {
+      "reference_rows": 47,
+      "reproduced_rows": 47,
+      "matched_rows": 47,
+      "tolerance": 1e-08,
+      "maximum_absolute_differences": {
+        "PCoA1": 0.0,
+        "PCoA2": 0.0,
+        "PCoA1_explained_pct": 3.552713678800501e-15,
+        "PCoA2_explained_pct": 1.7763568394002505e-15
+      },
+      "status": "passed"
+    },
+    "Annual_Summary": {
+      "reference_rows": 4,
+      "reproduced_rows": 4,
+      "matched_rows": 4,
+      "tolerance": 1e-06,
+      "maximum_absolute_differences": {
+        "density_median_org_m3": 0.0,
+        "density_mean_org_m3": 2.2737367544323206e-13,
+        "richness_median": 0.0,
+        "shannon_median": 4.440892098500626e-16,
+        "mhw_days_total": 0.0,
+        "anomaly_mean_c": 0.0,
+        "dhw_max_c_weeks": 0.0
+      },
+      "status": "passed"
+    },
+    "Phase_Summary": {
+      "reference_rows": 3,
+      "reproduced_rows": 3,
+      "matched_rows": 3,
+      "tolerance": 1e-06,
+      "maximum_absolute_differences": {
+        "density_median_org_m3": 5.684341886080802e-14,
+        "richness_median": 0.0,
+        "shannon_median": 4.440892098500626e-16,
+        "mhw_days_total": 0.0,
+        "anomaly_mean_c": 2.220446049250313e-16,
+        "dhw_max_c_weeks": 0.0
+      },
+      "status": "passed"
+    },
+    "Temp_Validation": {
+      "reference_rows": 2,
+      "reproduced_rows": 2,
+      "matched_rows": 2,
+      "tolerance": 5e-05,
+      "maximum_absolute_differences": {
+        "pearson_r": 0.0,
+        "p": 0.0
+      },
+      "status": "passed"
+    },
+    "Sensitivity": {
+      "reference_rows": 8,
+      "reproduced_rows": 8,
+      "matched_rows": 8,
+      "tolerance": 1e-05,
+      "maximum_absolute_differences": {
+        "n": 0.0,
+        "beta_standardized": 0.0,
+        "p": 0.0,
+        "rho_ar1": 0.0,
+        "partial_r2": 0.0,
+        "pseudo_f": 4.440892098500626e-16,
+        "design_rank": 0.0,
+        "design_columns": 0.0,
+        "max_vif": 2.220446049250313e-16,
+        "condition_number": 4.440892098500626e-16,
+        "cyclic_permutations": 0.0
+      },
+      "status": "passed"
+    }
+  }
+}
